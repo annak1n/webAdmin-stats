@@ -1,0 +1,121 @@
+/*  
+Theme Name: wAsTheme
+Description: wAsTheme is a simple CSS theme.
+Theme URI: http://www.paolorovelli.net/software/webAdmin-stats
+Version: 2.0
+Author: Paolo Rovelli
+Author URI: http://www.paolorovelli.net
+License: GNU General Public License v3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+*/
+
+
+
+/* USER INFO: */
+
+div.wAs-userInfo {
+	background: url(../images/wAs_bg.png) no-repeat right bottom;
+	margin: 20px 0;
+	padding: 0px;
+	font-size: 18px;
+	border: 1px solid #C0C0C0;
+    box-shadow: 0px 0px 5px 2px #C0C0C0;
+    border-radius: 10px;
+	width: 280px;
+}
+
+div.wAs-userInfo h2 {
+	background: #4181C0 url(../images/webAdminStats.png) no-repeat left;
+	background-size: 64px;
+	margin: 0px;
+	padding: 8px 10px 5px 60px;
+	color: #FFFFFF;
+	font-size: 16px;
+	text-transform: uppercase;
+	border-bottom: 1px solid #A2A2A2;
+    border-radius: 9px 9px 0px 0px;
+}
+
+div.wAs-userInfo p.wAs-userOS, div.wAs-userInfo p.wAs-userBrowser, div.wAs-userInfo p.wAs-userLanguage, div.wAs-userInfo p.wAs-userHost {
+	margin: 10px;
+	padding: 0px;
+	color: #454545;
+}
+div.wAs-userInfo p.wAs-userOS strong, div.wAs-userInfo p.wAs-userBrowser strong, div.wAs-userInfo p.wAs-userLanguage strong, div.wAs-userInfo p.wAs-userHost strong {
+	margin: 0px;
+	padding: 0px;
+	color: #000000;
+}
+
+
+
+/* VISITOR STATS: */
+
+div.wAs-visitorsStats {
+	background: url(../images/wAs_bg.png) no-repeat right bottom;
+	margin: 20px 0;
+	padding: 0px;
+	font-size: 15px;
+	border: 1px solid #C0C0C0;
+    box-shadow: 0px 0px 5px 2px #C0C0C0;
+    border-radius: 10px;
+	width: 280px;
+}
+
+div.wAs-visitorsStats h2 {
+	background: #4181C0 url(../images/webAdminStats.png) no-repeat left;
+	background-size: 64px;
+	margin: 0px;
+	padding: 8px 10px 5px 60px;
+	color: #FFFFFF;
+	font-size: 16px;
+	text-transform: uppercase;
+	border-bottom: 1px solid #A2A2A2;
+    border-radius: 9px 9px 0px 0px;
+}
+
+div.wAs-visitorsStats ul {
+	margin: 5px;
+	padding: 0px;
+	padding-left: 2px;
+	color: #454545;
+}
+div.wAs-visitorsStats ul li {
+	display: block;
+	clear: both;
+	padding: 1px 0;
+	list-style: none;
+}
+div.wAs-visitorsStats ul li div.wAs-img {
+	float: left;
+	margin: 0px;
+	margin-right: 5px;
+	padding: 0px;
+}
+div.wAs-visitorsStats ul li div.wAs-counter {
+	float: right;
+	margin: 0px;
+	padding: 0px;
+}
+div.wAs-visitorsStats ul li div.wAs-name {
+	margin: 0px;
+	padding: 0px;
+	padding-top: 1px;
+}
+
+
+
+/* ERROR MESSAGES:; */
+
+blockquote.errorMsg { 
+	background: #393939;
+	margin: 0px;
+	padding: 25px 0;
+	color: #FFFFFF;
+	font-size: 23px;
+	text-align: center;
+}
+blockquote.errorMsg span {
+	text-decoration: underline;
+	text-transform: uppercase;
+}
