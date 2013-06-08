@@ -1,3 +1,15 @@
+------------------------
+
+Software: webAdmin Stats
+Version: 3.8
+Release date: 2012-01-20
+Language: English
+Author: Paolo Rovelli
+License: GNU GPL v3.0
+
+------------------------
+
+
 webAdmin Stats
 ==============
 
@@ -5,17 +17,6 @@ webAdmin Stats is a simple and open source tool, written in PHP, which allows yo
 webAdmin Stats can work in background (in a totally transparent way) or can show to your visitors the data and the statistics gathered, thanks to the custom widgets.
 
 To use webAdmin Stats you do not need any special tools on your computer, just a platform that supports both PHP and MySQL (such as a web server like Apache or Microsoft IIS).
-
-
-
-Information:
-============
-Software: webAdmin Stats
-Version: 3.8
-Release date: 2012-01-20
-Language: English
-License: GNU GPL v3.0
-
 
 
 Installation:
@@ -29,7 +30,6 @@ Now, to complete the installation process and start gathering statistics, you ne
 Now webAdmin Stats automatically starts to gather statistics on the visits to your web pages.
 
 
-
 Widgets:
 ========
 To show the data and the statistics gathered by webAdmin Stats, you can and should use the custom webAdmin Stats widgets. To do that, you can simply call the following functions inside your web pages:
@@ -38,7 +38,6 @@ To show the data and the statistics gathered by webAdmin Stats, you can and shou
 - Print visitors' OSs statistics: 			<?php wAs_visitorsOSs(); ?>
 - Print of visitors' browsers statistics: 	<?php wAs_visitorsBrowsers(); ?>
 - Print visitors' languages statistics: 	<?php wAs_visitorsLanguages(); ?>
-
 
 
 Themes:
@@ -52,12 +51,10 @@ or through the instruction:
 <link rel='stylesheet' type='text/css' media='all' href='./webAdmin-stats/wAs-includes/css/style.css' />
 
 
-
 Licence:
 ========
 webAdmin Stats is licensed under the GNU General Public License v3.0 (http://www.gnu.org/licenses/gpl-3.0.html).
 The webAdmin Stats icon was created by Emre Ozcelik.
-
 
 
 FAQ:
