@@ -1,15 +1,3 @@
-------------------------
-
-Software: webAdmin Stats
-Version: 3.8
-Release date: 2012-01-20
-Language: English
-Author: Paolo Rovelli
-License: GNU GPL v3.0
-
-------------------------
-
-
 webAdmin Stats
 ==============
 
